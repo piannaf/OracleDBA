@@ -1,0 +1,22 @@
+Justin Mancinelli
+
+Assignment for INFS2200 at the University of Queensland
+
+Description:
+	Several PL/SQL scripts for analyzing database usage and creating a basic
+	schema. There is also some documentation describing the schema and its
+	design.
+	
+	Read the assignment specification for details on requirements.
+	
+Files:
+	INFS2200_assignment.pdf -- The assignment specification
+	Q1.docx -- Details of database conceptual design
+	Q2.sql -- Script to generate schema based on conceptual design
+	Q2b.docx -- Explanation of triggers, constraints, etc.
+	Q3.sql -- Script that kills the session doing the most physical reads
+	Q4.sql -- Script that finds the statement(s) causing the most physical reads
+		(and most memory) and who has been executing those statements
+	Q5a.sql -- Script that simply makes a single table used in part b
+	Q5b.sql -- Script that updates the above table with index sizes of all the
+		above tables.
